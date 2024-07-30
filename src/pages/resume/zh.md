@@ -10,7 +10,7 @@ locale: zh
 
 **高级软件工程师/技术经理**
 
-西安, 陕西 | plrthink@gmail.com | https://plrth.ink
+西安, 陕西 | plrthink@gmail.com | https://github.com/plrthink
 
 我来自陕西省西安市，在西安电子科技大学获得了本科学士学位。在最近的一份工作中，我在金数据（https://jinshuju.net/）担任高级软件工程师，并担任 tech lead 的角色。我擅长 web 前端开发，特别是在工具类 SaaS 方向上有丰富的经验。工作之外，我喜欢喝咖啡和听播客。
 

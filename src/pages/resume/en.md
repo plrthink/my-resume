@@ -7,7 +7,7 @@ locale: en
 ---
 # Perry Poon
 **Senior Software Engineer / Engineering Manager**
-Xi'an, Shaanxi | plrthink@gmail.com | https://plrth.ink
+Xi'an, Shaanxi | plrthink@gmail.com | https://github.com/plrthink
 
 I am from Xi'an, Shaanxi Province, and hold a bachelor's degree from Xidian University. In my most recent role, I worked as a Senior Software Engineer and Tech Lead at Jinshuju (https://jinshuju.net/). I specialize in web frontend development, with extensive experience in SaaS tools. Outside of work, I enjoy coffee and podcasts.
 
