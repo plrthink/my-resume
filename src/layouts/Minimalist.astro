@@ -9,17 +9,18 @@ type Props = {
     pdfLink: string;
     noIndex?: boolean;
     description?: string;
+    locale: "zh" | "en";
   };
 };
 
 const { PDF_VIEW, FORCE_THEME = "" } = import.meta.env;
 
-const { title, pdfLink, noIndex, description } = Astro.props
+const { title, pdfLink, noIndex, description, locale } = Astro.props
   .frontmatter as Props["frontmatter"];
 
 // Firstname Lastname -> ['F', 'L']
 const initials = title
-  .split(" ")
+  .split(locale === "zh" ? "" : " ")
   .map(([initial]) => initial!.toUpperCase())
   .slice(0, 2);
 ---
