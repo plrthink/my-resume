@@ -7,7 +7,7 @@ const main = async () => {
   const page = await browser.newPage();
 
   for (const locale of locales) {
-    await page.goto(`http://localhost:4321/resume-${locale}`, {
+    await page.goto(`http://localhost:4321/resume/${locale}`, {
       waitUntil: "networkidle",
     });
 

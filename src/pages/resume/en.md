@@ -2,7 +2,7 @@
 title: Perry Poon - Resume
 description: Perry Poon's Resume
 layout: ../../layouts/Minimalist.astro
-pdfLink: resume-en.pdf
+pdfLink: /resume-en.pdf
 locale: en
 ---
 # Perry Poon
