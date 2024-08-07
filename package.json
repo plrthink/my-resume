@@ -16,7 +16,6 @@
   },
   "devDependencies": {
     "@astrojs/tailwind": "^5.1.0",
-    "@fontsource/poppins": "^5.0.14",
     "@netlify/plugin-lighthouse": "^5.0.0",
     "@playwright/test": "^1.45.0",
     "@tailwindcss/typography": "^0.5.13",
@@ -31,6 +30,7 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.7.0",
+    "@fontsource-variable/noto-sans-sc": "^5.0.7",
     "astro": "^3.6.4"
   }
 }
