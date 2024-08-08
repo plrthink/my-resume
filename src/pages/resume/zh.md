@@ -2,8 +2,8 @@
 title: Rui Pan - Resume
 description: Rui Pan's Resume
 layout: ../../layouts/Minimalist.astro
-pdfLink: /resume-en.pdf
-locale: en
+pdfLink: /resume-zh.pdf
+locale: zh
 ---
 
 # 潘睿
