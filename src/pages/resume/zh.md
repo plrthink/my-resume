@@ -1,6 +1,6 @@
 ---
-title: Rui Pan - Resume
-description: Rui Pan's Resume
+title: 潘睿 - 简历
+description: 潘睿的简历
 layout: ../../layouts/Minimalist.astro
 pdfLink: /resume-zh.pdf
 locale: zh
