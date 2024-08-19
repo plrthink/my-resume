@@ -10,7 +10,7 @@ locale: en
 
 **Senior Software Engineer / Technical Manager**
 
-Xi'an, Shaanxi | <plrthink@gmail.com> | <https://github.com/plrthink>
+Xi'an, Shaanxi | <plrthink@gmail.com> | [github](https://github.com/plrthink) | [linkedin](https://www.linkedin.com/in/%E7%9D%BF-%E6%BD%98-74108650/)
 
 I am from Xi'an, Shaanxi Province, and obtained my bachelor's degree from Xidian University. In my most recent position, I worked as a Senior Software Engineer and Tech Lead at Jinshuju (<https://jinshuju.net/>). I specialize in web frontend development, with extensive experience in SaaS tools. Outside of work, I enjoy drinking coffee and listening to podcasts.
 
