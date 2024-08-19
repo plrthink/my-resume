@@ -22,7 +22,7 @@ locale: zh
 ## 资格证书
 - PMP 证书
 
-## 工作经历
+## 近期工作经历
 
 ### [金数据](https://jinshuju.net/)
 
