@@ -57,13 +57,24 @@ Later, I was deeply involved in the development and promotion of a proprietary A
 
 ### [Modao](https://modao.cc/)
 
-#### Software Engineer | August 2018 - May 2019
+#### Frontend Engineer | February 2015 - May 2019
 
-Responsible for Modao's enterprise version statistics and analysis module, mobile client refactoring, and private deployment solution design.
+As an early core engineer, responsible for developing multiple key projects from scratch, including:
 
-- Introduced InfluxDB to record user operations, using BizCharts for interactive visualization on the frontend.
-- Rewrote the mobile application using React XP, achieving one-time development for simultaneous delivery on iOS, Android, and mobile web platforms.
-- Leveraged JRuby and Warbler, along with Ruby on Rails monkey patching, to harden the code and enhance asset security for private deployments.
+- Led frontend-backend separation architecture refactoring, significantly improving development efficiency and user experience
+- Designed and developed Modao Sketch plugin, enabling seamless conversion from design drafts to prototypes
+- Built enterprise version statistics and analysis module, introducing InfluxDB for recording user operations, using BizCharts for interactive visualization on the frontend
+- Rewrote mobile application using React Native, achieving one-time development for simultaneous delivery on iOS, Android, and mobile web platforms
+- Optimized private deployment solution: Leveraged JRuby and Warbler, combined with Ruby on Rails monkey patching techniques, to harden code and enhance asset security
+
+### [Guokr](https://guokr.com/)
+
+#### Frontend Engineer | July 2014 - January 2015
+
+Participated in daily iterations of MOOC Academy, main contributions:
+
+- Led website responsive redesign, improving multi-device compatibility and user experience
+- Designed and implemented course recommendation module frontend pages, optimizing user course discovery and selection process
 
 ## Personal Projects
 
