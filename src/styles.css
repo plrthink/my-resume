@@ -1,5 +1,9 @@
-body {
+body.zh {
   font-family: "Noto Sans SC Variable", sans-serif;
+}
+
+body.en {
+  font-family: "Noto Sans Variable", sans-serif;
 }
 
 ::selection {

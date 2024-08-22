@@ -1,5 +1,6 @@
 ---
 import "@fontsource-variable/noto-sans-sc";
+import "@fontsource-variable/noto-sans";
 import Download from "../components/Download.astro";
 import "../styles.css";
 
@@ -36,7 +37,7 @@ const initials = title
     {noIndex && <meta name="robots" content="noindex" />}
     <title>{title}</title>
   </head>
-  <body class={!PDF_VIEW ? "bg-indigo-50 dark:bg-slate-900 sm:my-14" : ""}>
+  <body class={locale + " " + (!PDF_VIEW ? "bg-indigo-50 dark:bg-slate-900 sm:my-14" : "")}>
     <div class="container mx-auto flex justify-center">
       <article class="minimalist relative">
         <div

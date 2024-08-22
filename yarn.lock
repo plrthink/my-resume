@@ -595,6 +595,11 @@
   resolved "https://registry.npmmirror.com/@fontsource-variable/noto-sans-sc/-/noto-sans-sc-5.0.7.tgz#acc672c6e8bd80c6b92147e0e2e90e53310a7f92"
   integrity sha512-Bsp2O0QgJm9HnvY0dmCHnEq4+2NkNZ9iWYkj3afuDQIOL+2D5E07+jjYRWNWmW9DAXwIQG4NTqQrZ9OI5YsGVQ==
 
+"@fontsource-variable/noto-sans@^5.0.5":
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/@fontsource-variable/noto-sans/-/noto-sans-5.0.5.tgz#89e044227de4210bd62b4ab28ec9e688c78f1f03"
+  integrity sha512-SVixgckO4DIgvFJ+vTRZEj8vTvjZceuGOhKMgnETItKELl1tHzk+ZFatSTCofPJ1zjhTwqvHrHkFeCbUGiqaRg==
+
 "@hapi/hoek@^9.0.0":
   version "9.3.0"
   resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-9.3.0.tgz#8368869dcb735be2e7f5cb7647de78e167a251fb"
