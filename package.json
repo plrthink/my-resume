@@ -32,6 +32,6 @@
     "@astrojs/check": "^0.7.0",
     "@fontsource-variable/noto-sans": "^5.0.5",
     "@fontsource-variable/noto-sans-sc": "^5.0.7",
-    "astro": "^3.6.4"
+    "astro": "^4.15.10"
   }
 }
