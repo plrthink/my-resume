@@ -8,7 +8,7 @@ locale: en
 
 # Rui Pan
 
-**Senior Software Engineer / Technical Manager**
+**Senior Software Engineer / Engineering Manager**
 
 Xi'an, Shaanxi | <plrthink@gmail.com> | [github](https://github.com/plrthink) | [linkedin](https://www.linkedin.com/in/%E7%9D%BF-%E6%BD%98-74108650/)
 
