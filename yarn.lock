@@ -3698,11 +3698,6 @@ negotiator@0.6.3:
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.3.tgz#58e323a72fedc0d6f9cd4d31fe49f51479590ccd"
   integrity sha512-+EUsqGPLsM+j/zdChZjsnX51g4XrHFOIXwfnCVPGlQk/k5giakcKsuxCObBRu6DSm9opw/O6slWbJdghQM4bBg==
 
-netlify-plugin-playwright-cache@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/netlify-plugin-playwright-cache/-/netlify-plugin-playwright-cache-0.0.1.tgz#f03ede3dc6dbed9ff24f4ace247bd01fc5883e8e"
-  integrity sha512-FECC4DtoYKpGGUNevxXVTE0GdD5LYSWwTPJpHv/WW4VlviTle8QlKBvF3Exfm48TDvZCUR3ofX1Zz+cJWOWBWA==
-
 nlcst-to-string@^2.0.0:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/nlcst-to-string/-/nlcst-to-string-2.0.4.tgz#9315dfab80882bbfd86ddf1b706f53622dc400cc"
