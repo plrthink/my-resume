@@ -11,7 +11,4 @@ export default defineConfig({
       external: ["svgo"],
     },
   },
-  redirects: {
-    "/": "/resume/zh",
-  },
 });
