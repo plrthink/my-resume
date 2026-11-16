@@ -22,8 +22,14 @@ All commands are run from the root of the project:
 | :------------------ | :------------------------------------------------- |
 | `yarn`              | Installs dependencies                              |
 | `yarn dev`          | Starts local dev server at `localhost:4321`        |
-| `yarn build`        | Build your production site to `./dist/`            |
+| `yarn build`        | Generate resume PDFs + build site to `./dist/`     |
 | `yarn preview`      | Preview your build locally, before deploying       |
+
+## Deploy
+
+Production builds run on **GitHub Actions (`macos-latest`)** so Playwright PDF font rendering matches local macOS, then deploy to Netlify with the CLI. Netlify’s git build is skipped (`ignore = "exit 0"`).
+
+Required Actions secrets: `NETLIFY_AUTH_TOKEN`, `NETLIFY_SITE_ID`.
 
 ## Contact
 

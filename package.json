@@ -16,7 +16,6 @@
   },
   "devDependencies": {
     "@astrojs/tailwind": "^5.1.0",
-    "@netlify/plugin-lighthouse": "^6.0.4",
     "@playwright/test": "^1.45.0",
     "@tailwindcss/typography": "^0.5.13",
     "@types/node": "^22",
