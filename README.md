@@ -20,14 +20,19 @@ All commands are run from the root of the project:
 
 | Command             | Action                                             |
 | :------------------ | :------------------------------------------------- |
-| `yarn`              | Installs dependencies                              |
-| `yarn dev`          | Starts local dev server at `localhost:4321`        |
-| `yarn build`        | Generate resume PDFs + build site to `./dist/`     |
-| `yarn preview`      | Preview your build locally, before deploying       |
+| `yarn`                 | Installs dependencies (no Playwright browsers)  |
+| `yarn playwright:install` | Download Chromium for PDF generation         |
+| `yarn dev`             | Starts local dev server at `localhost:4321`     |
+| `yarn build`           | Install Chromium + generate PDFs + build site   |
+| `yarn preview`         | Preview your build locally, before deploying    |
 
 ## Deploy
 
-Production builds run on **GitHub Actions (`macos-latest`)** so Playwright PDF font rendering matches local macOS, then deploy to Netlify with the CLI. Netlify’s git build is skipped (`ignore = "exit 0"`).
+Production builds run on **GitHub Actions (`macos-latest`)** so Playwright PDF font rendering matches local macOS, then deploy to Netlify with the CLI.
+
+Netlify git builds are canceled via `ignore` (and Playwright is not installed on `yarn install`, so accidental Netlify installs stay fast).
+
+Also turn off automatic builds in the Netlify UI if you can: **Project configuration → Build & deploy → Continuous Deployment → Stop builds** — otherwise Netlify may still spin up a job on every push (even if it exits early).
 
 Required Actions secrets: `NETLIFY_AUTH_TOKEN`, `NETLIFY_SITE_ID`.
 

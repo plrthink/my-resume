@@ -1,9 +1,11 @@
-# Site builds run on GitHub Actions (macos-latest) for better PDF font
-# rendering, then deploy via `netlify-cli`. Ignore git-triggered builds here.
+# Production builds run on GitHub Actions (macos-latest) and deploy via
+# netlify-cli. Cancel every git-triggered Netlify build before it does work.
 [build]
   publish = "dist"
   command = "exit 0"
-  ignore = "exit 0"
+  ignore = "node ./scripts/skip-netlify-build.js"
 
 [build.environment]
   NODE_VERSION = "26"
+  # Belt-and-suspenders if install still runs before ignore.
+  PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD = "1"
