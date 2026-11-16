@@ -3,11 +3,14 @@ import { chromium } from "playwright";
 const locales = ["en", "zh"];
 
 const main = async () => {
-  const browser = await chromium.launch();
+  // GitHub macOS runners ship Google Chrome; avoid Playwright CDN downloads.
+  const browser = await chromium.launch(
+    process.env.CI ? { channel: "chrome" } : undefined,
+  );
   const page = await browser.newPage();
 
   for (const locale of locales) {
-    await page.goto(`http://localhost:4321/resume/${locale}`, {
+    await page.goto(`http://127.0.0.1:4321/resume/${locale}`, {
       waitUntil: "networkidle",
     });
 
